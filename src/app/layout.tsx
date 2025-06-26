@@ -4,7 +4,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "@/app/ui/styles/globals.css";
 import Navbar from "./ui/components/nav-bar";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
