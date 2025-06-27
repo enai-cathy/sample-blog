@@ -1,8 +1,10 @@
+import Carousel from "./ui/components/Carousel";
 import HeroSection from "./ui/components/HeroSection";
 
 export default function Home() {
   return (
     <> <HeroSection />
+    <Carousel/>
     <main className="flex items-center justify-center min-h-screen bg-gray-50 mt-15">
      
       <div className="container mx-auto p-4 relative">

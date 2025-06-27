@@ -7,7 +7,7 @@ export default function HeroSection(){
         style={{ backgroundImage: "url('/hero-image3.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
-        <div className="relative z-10 flex flex-col top-40 items-center justify-center h-full text-center text-white px-4">
+        <div className="relative z-10 flex flex-col top-20 md:top-30 items-center justify-center h-full text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Welcome to 404-FOUND!
           </h1>
