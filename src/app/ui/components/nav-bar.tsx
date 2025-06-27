@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* Logo on the left */}
           <Link
             href="/"
-            className="text-xl font-bold text-white flex items-center gap-2"
+            className="text-xl font-outfit font-bold text-white flex items-center gap-2"
           >
             404-FOUND!
           </Link>
