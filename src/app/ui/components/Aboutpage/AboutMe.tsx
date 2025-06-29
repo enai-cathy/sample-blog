@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function AboutMe() {
+
   return (
     <>
       <motion.section
@@ -9,6 +11,7 @@ export default function AboutMe() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
+        whileHover={{ scale: 1.03 }}
       >
         <div>
           <h2 className="text-3xl font-semibold mb-4">👋 About Me</h2>
@@ -34,21 +37,22 @@ export default function AboutMe() {
           <p className="mt-4 text-gray-700 text-base sm:text-lg">
             Outside of tech, I enjoy cooking, sci-fi films, and spontaneous
             creativity. If you're navigating your own path in tech, especially
-            through a career pivot. you’re not alone. 
+            through a career pivot. you’re not alone.
             <strong>You belong here.</strong>
           </p>
         </div>
 
-        <div className="bg-gray-50 rounded-xl p-6 shadow-md">
-          <h3 className="text-xl font-semibold mb-2">⚡ Tech Stack</h3>
-          <ul className="list-disc list-inside text-gray-600 space-y-1">
-            <li>Next.js + React</li>
-            <li>Tailwind CSS</li>
-            <li>Supabase / PostgreSQL</li>
-            <li>OpenAI / API integrations</li>
-            <li>Vercel Deployments</li>
-          </ul>
+        <div className=" p-6 ">
+          <Image
+            src={"/girl-illustration.png"}
+            width={1000}
+            height={550}
+            alt={"girl illustration"}
+            // className="display-block md:hidden"
+          />
         </div>
       </motion.section>
+
+    
     </>
   );}

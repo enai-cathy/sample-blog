@@ -1,9 +1,12 @@
-import Carousel from "./ui/components/Carousel";
-import HeroSection from "./ui/components/HeroSection";
+import Carousel from "./ui/components/Homepage/Carousel";
+import HeroSection from "./ui/components/Homepage/HeroSection";
+import GetStarted from "./ui/components/Homepage/GetStarted";
+import Newsletter from "./ui/components/Newsletter";
 
 export default function Home() {
   return (
     <> <HeroSection />
+    <GetStarted/>
     <Carousel/>
     <main className="flex items-center justify-center min-h-screen bg-gray-50 mt-15">
      
@@ -31,6 +34,7 @@ export default function Home() {
         </a>
       </p>
     </main>
+    <Newsletter/>
     </>
   );
 }

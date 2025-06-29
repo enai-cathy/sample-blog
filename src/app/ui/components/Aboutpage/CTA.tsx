@@ -5,11 +5,12 @@ export default function CTA() {
   return (
     <>
       <motion.section
-        className="text-center bg-gradient-to-br from-purple-600 to-purple-800 text-white py-16 px-6 rounded-xl max-w-4xl mx-auto shadow-lg"
+        className="text-center bg-gradient-to-br from-purple-300 to-purple-800 text-white py-16 px-6 rounded-xl max-w-4xl mx-auto shadow-lg"
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
+        whileHover={{ scale: 1.03 }}
       >
         <h2 className="text-3xl font-bold mb-4">
           Let’s Build Something Together

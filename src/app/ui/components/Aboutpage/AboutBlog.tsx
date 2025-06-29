@@ -9,6 +9,7 @@ export default function AboutBlog() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
+        whileHover={{ scale: 1.03 }}
       >
         <h2 className="text-3xl font-semibold mb-4">💡 About the Blog</h2>
         <p className="text-gray-700 leading-relaxed">

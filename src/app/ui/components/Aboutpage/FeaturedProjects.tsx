@@ -10,9 +10,10 @@ export default function FeaturedProjects() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.4 }}
+        whileHover={{ scale: 1.03 }}
       >
         <h2 className="text-3xl font-semibold mb-10 text-center">
-           Featured Projects
+          Featured Projects
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
@@ -39,7 +40,7 @@ export default function FeaturedProjects() {
           ].map((proj) => (
             <div
               key={proj.title}
-              className="border rounded-xl p-5 bg-white shadow hover:shadow-lg transition"
+              className="border border-purple-300 rounded-xl p-5 bg-purple-200 shadow hover:shadow-lg transition"
             >
               <h3 className="text-xl font-bold mb-2">{proj.title}</h3>
               <p className="text-gray-600 text-sm">{proj.desc}</p>
