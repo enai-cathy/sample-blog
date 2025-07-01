@@ -1,149 +1,132 @@
 "use client";
 import Link from "next/link";
+import { ArrowLeft, GlobeIcon, ServerIcon,LightbulbIcon,InfoIcon } from "lucide-react";
 
 export default function HostingPage() {
   return (
-    <main className="max-w-4xl mx-auto py-20 px-6 text-gray-800">
-      <h1 className="text-4xl font-bold mb-6 text-purple-700">
-        🌐 Hosting & Deployment
-      </h1>
+    <main className="max-w-5xl mx-auto py-20 px-6 text-white bg-gray-900">
+      <section className="mb-12">
+        <div className="flex items-center gap-2 text-purple-400 mb-3">
+          <GlobeIcon className="w-6 h-6" />
+          <h1 className="text-3xl sm:text-4xl font-bold">
+            Hosting & Deployment
+          </h1>
+        </div>
+        <p className="text-lg leading-relaxed max-w-3xl">
+          Great projects deserve a great launch. Whether you're shipping a blog,
+          SaaS app, or full-stack platform, hosting & deployment are key. This
+          guide helps you choose the right platform and tools for speed,
+          scalability, and ease.
+        </p>
+      </section>
 
-      <p className="mb-6 text-lg leading-relaxed">
-        Great projects deserve a great launch. Whether you're shipping a blog,
-        SaaS app, or full-stack platform, hosting & deployment are key. This
-        guide helps you choose the right platform and tools for speed,
-        scalability, and ease.
-      </p>
-
-      <div className="mb-10 space-y-4">
-        <h2 className="text-2xl font-semibold text-purple-600">
-          💡 Key Concepts to Understand:
+      <section className="mb-12">
+        <h2 className="flex items-center gap-2 text-2xl font-semibold text-purple-400 mb-4">
+          <LightbulbIcon className="w-6 h-6" /> Key Concepts to Understand
         </h2>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="grid sm:grid-cols-2 gap-4 text-sm sm:text-base list-disc list-inside">
           <li>Static vs dynamic hosting</li>
           <li>CDNs, caching & performance</li>
           <li>Serverless functions</li>
           <li>Continuous deployment (CI/CD)</li>
           <li>Domains & DNS setup</li>
         </ul>
-      </div>
+      </section>
 
-      <div className="space-y-6">
-        <h2 className="text-2xl font-semibold text-purple-600">
-          🔗 Top 10 Hosting Platforms & Tools
+      <section className="mb-16">
+        <h2 className="flex items-center gap-2 text-2xl font-semibold text-purple-400 mb-4">
+           <ServerIcon className="w-6 h-6" /> Top 10 Hosting Platforms
         </h2>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm sm:text-base">
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://vercel.com/"
-              target="_blank"
+        <div className="grid sm:grid-cols-2 gap-6">
+          {[
+            {
+              name: "Vercel",
+              link: "https://vercel.com/",
+              desc: "Best for Next.js apps, fast, serverless, and developer-friendly.",
+            },
+            {
+              name: "Netlify",
+              link: "https://netlify.com/",
+              desc: "Perfect for static sites and JAMstack apps with CI/CD built-in.",
+            },
+            {
+              name: "Render",
+              link: "https://render.com/",
+              desc: "Easy full-stack deployments with a generous free tier.",
+            },
+            {
+              name: "Railway",
+              link: "https://railway.app/",
+              desc: "Fast deploys for Node, databases, and more.",
+            },
+            {
+              name: "Supabase",
+              link: "https://supabase.com/",
+              desc: "Backend-as-a-Service with PostgreSQL hosting & auth.",
+            },
+            {
+              name: "Cloudflare Pages",
+              link: "https://cloudflare.com/",
+              desc: "Global static hosting with CDN and edge functions.",
+            },
+            {
+              name: "Glitch",
+              link: "https://glitch.com/",
+              desc: "Build and remix full-stack apps in your browser.",
+            },
+            {
+              name: "Fly.io",
+              link: "https://fly.io/",
+              desc: "Run full apps near users on edge infrastructure.",
+            },
+            {
+              name: "Firebase Hosting",
+              link: "https://firebase.google.com/",
+              desc: "Great for static apps + real-time databases & auth.",
+            },
+            {
+              name: "DigitalOcean",
+              link: "https://digitalocean.com/",
+              desc: "More advanced control with their App Platform or VPS.",
+            },
+          ].map((tool, idx) => (
+            <div
+              key={idx}
+              className="border border-purple-400 bg-purple-300 text-purple-900 rounded-xl p-4 hover:shadow-sm transition"
             >
-              1. Vercel
-            </a>{" "}
-            – Best for Next.js apps, fast, serverless, and developer-friendly.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://netlify.com/"
-              target="_blank"
-            >
-              2. Netlify
-            </a>{" "}
-            – Perfect for static sites and JAMstack apps with CI/CD built-in.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://render.com/"
-              target="_blank"
-            >
-              3. Render
-            </a>{" "}
-            – Easy full-stack deployments with a generous free tier.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://railway.app/"
-              target="_blank"
-            >
-              4. Railway
-            </a>{" "}
-            – Fast deploys for Node, databases, and more.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://supabase.com/"
-              target="_blank"
-            >
-              5. Supabase
-            </a>{" "}
-            – Backend as a service + PostgreSQL hosting.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://cloudflare.com/"
-              target="_blank"
-            >
-              6. Cloudflare Pages
-            </a>{" "}
-            – Fast, secure, global static hosting.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://glitch.com/"
-              target="_blank"
-            >
-              7. Glitch
-            </a>{" "}
-            – Build and share full-stack apps in your browser.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://fly.io/"
-              target="_blank"
-            >
-              8. Fly.io
-            </a>{" "}
-            – Run full apps near users on edge infrastructure.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://firebase.google.com/"
-              target="_blank"
-            >
-              9. Firebase Hosting
-            </a>{" "}
-            – Great for static apps + real-time DBs.
-          </li>
-          <li>
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://digitalocean.com/"
-              target="_blank"
-            >
-              10. DigitalOcean
-            </a>{" "}
-            – More advanced VPS-level control with App Platform.
-          </li>
-        </ul>
-      </div>
+              <a
+                href={tool.link}
+                target="_blank"
+                className="font-semibold hover:underline"
+              >
+                {idx + 1}. {tool.name}
+              </a>
+              <p className="text-sm mt-1">{tool.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-      <div className="mt-12 bg-blue-50 p-6 rounded-xl shadow">
-        <h3 className="text-lg font-semibold mb-2">📦 Tip for Beginners:</h3>
+      <section className="bg-gradient-to-br from-blue-100 to-blue-300 border border-blue-200 p-6 rounded-xl text-gray-800 shadow-sm mb-16">
+        <h3 className="text-lg font-semibold flex items-center gap-2 mb-2">
+          <InfoIcon className="w-5 h-5 text-blue-700" />
+          Tip for Beginners
+        </h3>
         <p className="text-sm">
           Start with <strong>Vercel</strong> or <strong>Netlify</strong>. You
-          can push to GitHub and your app deploys automatically. No server
-          config. Perfect for portfolios, blogs, and side projects.
+          can connect a GitHub repo and your app deploys automatically. No
+          server config needed. Perfect for portfolios, blogs, and side
+          projects.
         </p>
-      </div>
+      </section>
+
+      <Link
+        href="/"
+        className="inline-flex items-center gap-2 text-sm text-gray-300 hover:text-purple-600 transition"
+      >
+        <ArrowLeft className="w-4 h-4" />
+        Back to Home
+      </Link>
     </main>
   );
 }

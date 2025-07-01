@@ -1,4 +1,4 @@
-// app/api/carousel/route.ts
+
 import { NextResponse } from "next/server";
 import { getCarouselPosts } from "@/app/lib/getCarouselPosts";
 
