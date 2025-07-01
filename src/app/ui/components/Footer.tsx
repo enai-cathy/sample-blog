@@ -3,11 +3,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Github, Linkedin, Mail } from "lucide-react";
 
-
 export default function Footer() {
 
-
- 
   return (
     <footer className="bg-gray-900 text-gray-200 pt-16 pb-10">
       <motion.div

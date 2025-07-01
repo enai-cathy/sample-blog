@@ -1,39 +1,16 @@
-// import OpenAI from "openai";
-// const client = new OpenAI();
 
-// const response = await client.responses.create({
-//   model: "gpt-4.1-2025-04-14",
-//   input: "Write a one-sentence bedtime story about a unicorn.",
-// });
-
-// console.log(response.output_text);
-
-
-// import OpenAI from "openai";
-
-// const client = new OpenAI({
-//   apiKey:
-//     process.env.OPENAI_API_KEY,
-// });
-
-// const response = await client.responses.create({
-//   model: "gpt-4.1",
-//   input: "Write a one-sentence bedtime story about a unicorn.",
-// });
-
-//  console.log(response.output_text);
-
-
-// app/api/serena/route.ts
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY!,
-});
 
 export async function POST(req: Request) {
   const { question, prompt } = await req.json();
+  
+  const openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY!,
+  });
+  
+ 
 try{ 
   const response = await openai.chat.completions.create({
     model: "gpt-3.5-turbo",
