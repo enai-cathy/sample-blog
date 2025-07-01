@@ -4,43 +4,44 @@ import {
   BrainCircuit,
   Keyboard,
   DollarSign,
-  Briefcase,
   Server,
-  Mic,
-  PenTool,
+  CodeXml,
+  Paintbrush,
+  Computer,
 } from "lucide-react";
 
 export default function GetStartedStrip() {
   const topics = [
-    { icon: <BrainCircuit size={24} />,
-     label: "AI",
-      href: "/learn/ai" },
     {
-      icon: <Keyboard size={24} />,
-      label: "Blogging",
-      href: "/learn/blogging",
+      icon: <BrainCircuit size={24} />,
+      label: "AI Tools",
+      href: "/GettingStarted/ai",
     },
     {
       icon: <DollarSign size={24} />,
       label: "Business",
-      href: "/learn/business",
+      href: "/GettingStarted/Business",
+    },
+
+    {
+      icon: <Server size={24} />,
+      label: "Hosting",
+      href: "/GettingStarted/hosting",
     },
     {
-      icon: <Briefcase size={24} />,
-      label: "Freelancing",
-      href: "/learn/freelancing",
+      icon: <CodeXml size={24} />,
+      label: "HTML",
+      href: "/GettingStarted/html",
     },
-    { icon: <Server size={24} />, 
-    label: "Hosting",
-     href: "/learn/hosting",
+    {
+      icon: <Computer size={24} />,
+      label: "Java",
+      href: "/GettingStarted/Java",
     },
-    { icon: <Mic size={24} />,
-     label: "Podcasting", 
-     href: "/learn/podcasting",
-    },
-    { icon: <PenTool size={24} />,
-     label: "Writing",
-      href: "/learn/writing", 
+    {
+      icon: <Paintbrush size={24} />,
+      label: "CSS",
+      href: "/GettingStarted/CSS",
     },
   ];
 

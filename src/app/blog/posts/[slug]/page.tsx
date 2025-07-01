@@ -29,8 +29,9 @@ export default async function BlogPostPage(props: {
       <p className="text-sm text-gray-500 mb-6">
         {post.date} • {post.author}
       </p>
-      <div className="prose prose-purple max-w-none whitespace-pre-wrap">
-        {post.content}
+      <div className="prose prose-purple max-w-none whitespace-pre-wrap"
+      dangerouslySetInnerHTML={{__html: post.content}}>
+       
       </div>
     </div>
   );

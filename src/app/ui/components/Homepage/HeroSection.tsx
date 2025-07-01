@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -10,7 +11,7 @@ export default function HeroSection(){
           alt="Background"
           fill
           priority
-          className="absolute inset-0 object-cover opacity-10"
+          className="absolute inset-0 object-cover opacity-40"
         />
         <motion.div
           initial={{ opacity: 0, y: -20 }}

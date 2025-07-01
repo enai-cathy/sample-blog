@@ -5,7 +5,7 @@ export default function ContactHero(){
     return (
       <>
         <motion.section
-          className="text-center mt-10 mb-10 max-w-3xl mx-auto"
+          className="text-center mt-15 mb-10 max-w-3xl mx-auto"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}

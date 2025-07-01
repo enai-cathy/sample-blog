@@ -22,4 +22,21 @@ export const posts = [
     date: "911166",
     user: "Sandra B",
   },
+  {
+    id: "6bd38af3-8a95-4a7a-add7-fd69c6b8f123",
+    image: "/hero-image.jpg",
+    slug: "journey-into-tech",
+    title: "My Journey into Tech",
+    description: "How I went from hospitals to HTML.",
+    content: `
+      <p>This is my story of transitioning from healthcare into web development.</p>
+      <img src="/journey-1.jpg" alt="Early days" />
+      <p>It wasn't easy, but every step was worth it.</p>
+      <img src="/journey-2.jpg" alt="Learning to code" />
+      <p>Now I get to blend logic, creativity, and community.</p>
+    `,
+    date: "2025-06-29",
+    user: "Enaikato Cathy",
+  },
 ];
+

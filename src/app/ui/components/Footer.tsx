@@ -15,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-gray-200 pt-16 pb-10 mt-20">
+    <footer className="bg-gray-900 text-gray-200 pt-16 pb-10">
       <motion.div
         className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"
         initial={{ opacity: 0, y: 50 }}
@@ -103,7 +103,7 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-gray-700 mt-10 pt-6 text-sm text-gray-500 text-center">
-          © {new Date().getFullYear()} 404-FOUND! — Built with Next.js,
+          © {new Date().getFullYear()} 404-FOUND! — Built by Me-Enai, with Next.js,
           TailwindCSS, and spicy code 🌶️
         </div>
       </motion.div>

@@ -11,7 +11,8 @@ export default function Newsletter() {
     setEmail("");
   };
 return (
-  <div className="mx-auto text-white py-16 px-6 bg-gradient-to-br from-purple-200 to-purple-800 max-w-lg justify-center bg-gray-800 rounded-xl p-6 shadow-lg text-center">
+  <div className="mx-auto text-white py-16 px-6  max-w-lg justify-center p-6 shadow-lg text-center">
+    {/*  bg-gradient-to-br from-purple-200 to-purple-800 rounded-xl */}
     <h2 className="text-2xl sm:text-3xl font-bold mb-3">
       Join the Dev Dispatch
     </h2>
@@ -33,10 +34,11 @@ return (
       />
       <button
         type="submit"
-        className="text-purple-900 bg-white hover:bg-purple-700 hover:text-white px-5 py-1 rounded-lg transition font-semibold"
+        className="hover:text-purple-900 hover:bg-white bg-purple-700 text-white px-5 py-1 rounded-lg transition font-semibold"
       >
         Subscribe
       </button>
     </form>
   </div>
 );}
+

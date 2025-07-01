@@ -4,6 +4,7 @@ import {
   HomeIcon,
   DocumentDuplicateIcon,
   EnvelopeIcon,
+  CpuChipIcon,
 } from "@heroicons/react/24/outline";
 
 import { usePathname } from "next/navigation";
@@ -17,6 +18,7 @@ const links = [
     href: "/blog/posts",
     icon: DocumentDuplicateIcon,
   },
+  { name: "Serena AI", href: "/serena-ai", icon: CpuChipIcon },
   { name: "About", href: "/about", icon: UserGroupIcon },
   { name: "Contact", href: "/contact", icon: EnvelopeIcon },
 ];
