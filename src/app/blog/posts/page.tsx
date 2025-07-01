@@ -1,11 +1,11 @@
 // app/blog/page.tsx
-import { connectToDB, getPosts } from "@/app/lib/data";
+import { getPosts } from "@/app/lib/data";
 // import { posts } from "@/app/lib/placeholder-data";
 import Link from "next/link";
 import Image from "next/image";
 
 export default async function BlogPage() {
-  const client = await connectToDB;
+  // const client = await connectToDB;
   const posts = await getPosts();
 
   return (

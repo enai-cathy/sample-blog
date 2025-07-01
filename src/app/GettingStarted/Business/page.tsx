@@ -19,16 +19,16 @@ export default function Business() {
           </h1>
         </div>
         <p className="text-lg leading-relaxed max-w-3xl">
-          Whether you're launching a startup, freelancing as a developer, or
-          building digital products — business strategy is essential. Learn how
-          to define customer value, validate ideas, price your services, and
+          Whether you&apos;re launching a startup, freelancing as a developer,
+          or building digital products — business strategy is essential. Learn
+          how to define customer value, validate ideas, price your services, and
           think like a builder.
         </p>
       </section>
 
       <section className="mb-12">
         <h2 className=" flex items-center gap-2 text-2xl font-semibold text-purple-400 mb-4">
-           <Brain className="w-6 h-6"/> Core Business Concepts for Developers
+          <Brain className="w-6 h-6" /> Core Business Concepts for Developers
         </h2>
         <ul className="grid sm:grid-cols-2 gap-4 text-sm sm:text-base list-disc list-inside">
           <li>Value proposition & user psychology</li>
@@ -43,7 +43,7 @@ export default function Business() {
 
       <section className="mb-12">
         <h2 className=" flex items-center gap-3 text-2xl font-semibold text-purple-400 mb-4">
-          <BookOpenCheckIcon className="w-6 h-6"/> Recommended Resources
+          <BookOpenCheckIcon className="w-6 h-6" /> Recommended Resources
         </h2>
         <div className="grid sm:grid-cols-2 gap-6">
           {[
@@ -100,7 +100,9 @@ export default function Business() {
           🛠 Starter Skills for Beginners
         </h2>
         <div className="bg-purple-100 p-6 rounded-xl text-gray-800 shadow-sm grid gap-3 text-sm sm:text-base">
-          <p>If you're just getting started, focus on learning these first:</p>
+          <p>
+            If you&apos;re just getting started, focus on learning these first:
+          </p>
           <ul className="list-disc list-inside">
             <li>What makes a good product (product-market fit)</li>
             <li>How to define your audience and niche</li>

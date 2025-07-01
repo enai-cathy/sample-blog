@@ -2,7 +2,6 @@
 import Link from "next/link";
 import {
   BrainCircuit,
-  Keyboard,
   DollarSign,
   Server,
   CodeXml,

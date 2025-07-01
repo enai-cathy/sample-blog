@@ -51,7 +51,7 @@ export default function TechStackGrid() {
               key={proj.title}
               className="border-1 border-purple-300 rounded-xl p-5 bg-purple-200 shadow hover:shadow-lg hover:bg-purple-100 transition"
             >
-              <img
+              <Image
                 src={proj.image}
                 alt={proj.title}
                 className="w-full h-50 mb-4 object-contain"

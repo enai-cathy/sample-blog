@@ -18,10 +18,10 @@ export default function CSSPage() {
           <h1 className="text-3xl sm:text-4xl font-bold">Learn CSS</h1>
         </div>
         <p className="text-lg leading-relaxed max-w-3xl">
-          CSS (Cascading Style Sheets) is what makes the web beautiful. It's
-          responsible for layout, colors, responsiveness, animations, and
-          overall UI. Learning CSS gives you control over how your app or site
-          looks and feels — and is a must-have for any frontend dev.
+          CSS (Cascading Style Sheets) is what makes the web beautiful.
+          It&apos;s responsible for layout, colors, responsiveness, animations,
+          and overall UI. Learning CSS gives you control over how your app or
+          site looks and feels — and is a must-have for any frontend dev.
         </p>
       </section>
 
@@ -99,7 +99,7 @@ export default function CSSPage() {
           <Brain className="w-6 h-6" /> CSS Starter Tips for Beginners
         </h2>
         <div className="bg-purple-100 p-6 rounded-xl text-gray-800 shadow-sm grid gap-3 text-sm sm:text-base">
-          <p>New to CSS? Here's how to start:</p>
+          <p>New to CSS? Here&apos;s how to start:</p>
           <ul className="list-disc list-inside">
             <li>Start with Flexbox and Grid layout systems</li>
             <li>Practice by cloning simple websites</li>

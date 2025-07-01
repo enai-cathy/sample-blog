@@ -30,13 +30,13 @@ export default function AboutMe() {
           <p className="mt-4 text-gray-700 text-base sm:text-lg">
             <strong>404-FOUND!</strong> is more than a dev blog, it’s a digital
             reflection of my shift from saving lives to designing better digital
-            experiences. It's a space where I share what I’m learning, building,
+            experiences. It&apos;s a space where I share what I’m learning, building,
             and exploring.
           </p>
 
           <p className="mt-4 text-gray-700 text-base sm:text-lg">
             Outside of tech, I enjoy cooking, sci-fi films, and spontaneous
-            creativity. If you're navigating your own path in tech, especially
+            creativity. If you are navigating your own path in tech, especially
             through a career pivot. you’re not alone.
             <strong>You belong here.</strong>
           </p>

@@ -14,7 +14,7 @@ return(
   >
     <h2 className="text-3xl font-bold mb-4"> Meet the Creator</h2>
     <p className="text-gray-400 text-lg mb-6">
-      I'm Enaikato Cathy, a frontend dev and product tinkerer who pivoted from
+      I am Enaikato Cathy, a frontend dev and product tinkerer who pivoted from
       healthcare to code. I build ideas in public and share what I learn — bugs
       and all.
     </p>

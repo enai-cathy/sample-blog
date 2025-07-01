@@ -2,18 +2,12 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Github, Linkedin, Mail } from "lucide-react";
-import { useState } from "react";
+
 
 export default function Footer() {
-  const [email, setEmail] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Add your newsletter logic here (e.g., API call to ConvertKit, Buttondown, etc.)
-    alert(`Subscribed: ${email}`);
-    setEmail("");
-  };
 
+ 
   return (
     <footer className="bg-gray-900 text-gray-200 pt-16 pb-10">
       <motion.div
@@ -23,7 +17,7 @@ export default function Footer() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        {/* Newsletter Signup */}
+       
        
 
         {/* Footer grid */}

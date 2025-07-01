@@ -12,9 +12,9 @@ export default function HTMLPage() {
         </div>
         <p className="text-lg leading-relaxed max-w-3xl">
           HTML (HyperText Markup Language) is the backbone of every website.
-          It's how we structure content — from headings and paragraphs to links,
-          images, and layout containers. Learning HTML is the first step toward
-          building the web.
+          It&apos;s how we structure content — from headings and paragraphs to
+          links, images, and layout containers. Learning HTML is the first step
+          toward building the web.
         </p>
       </section>
 

@@ -27,12 +27,11 @@ export default function Carousel() {
     setCurrent((prev) => (prev - 1 + posts.length) % posts.length);
 
   if (posts.length === 0) return <p className="text-center">Loading...</p>;
-  {
-    typeof posts[current].title === "string" && posts[current].title;
-  }
-
+  
   return (
     <div className="relative w-full max-w-4xl mx-auto overflow-hidden rounded-lg shadow-lg">
+      <h2>{typeof posts[current].title === "string" ? posts[current].title :"No title"}
+</h2>
       <div className="relative h-64 sm:h-80 md:h-96">
         <Image
           src={`${posts[current].image}.jpg`}

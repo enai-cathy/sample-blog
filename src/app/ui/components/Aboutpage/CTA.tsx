@@ -16,8 +16,8 @@ export default function CTA() {
           Let’s Build Something Together
         </h2>
         <p className="mb-6 max-w-xl mx-auto text-purple-100">
-          If you're a founder, startup, or collaborator looking for clean,
-          purposeful frontend work — I'm ready.
+          If you are a founder, startup, or collaborator looking for clean,
+          purposeful frontend work — I&apos;m ready.
         </p>
         <Link
           href="/contact"

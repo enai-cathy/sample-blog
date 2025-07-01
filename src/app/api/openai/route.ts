@@ -44,10 +44,10 @@ try{
   });
 
   return NextResponse.json({ result: response.choices[0].message.content });
-} catch (err: any) {
+} catch (err) {
   console.error("OpenAI Error:", err);
 
-  const errorMsg = err?.code === "insufficient_quota"
+  const errorMsg = (err as {code?: string})?.code === "insufficient_quota"
     ? "You've exceeded your OpenAI quota. Please check your billing or try again later."
     : "This Service is Temporarily down. Please try again later.";
 

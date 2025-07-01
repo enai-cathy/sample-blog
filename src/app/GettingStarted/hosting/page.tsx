@@ -13,9 +13,9 @@ export default function HostingPage() {
           </h1>
         </div>
         <p className="text-lg leading-relaxed max-w-3xl">
-          Great projects deserve a great launch. Whether you're shipping a blog,
-          SaaS app, or full-stack platform, hosting & deployment are key. This
-          guide helps you choose the right platform and tools for speed,
+          Great projects deserve a great launch. Whether you&apos;re shipping a
+          blog, SaaS app, or full-stack platform, hosting & deployment are key.
+          This guide helps you choose the right platform and tools for speed,
           scalability, and ease.
         </p>
       </section>
@@ -35,7 +35,7 @@ export default function HostingPage() {
 
       <section className="mb-16">
         <h2 className="flex items-center gap-2 text-2xl font-semibold text-purple-400 mb-4">
-           <ServerIcon className="w-6 h-6" /> Top 10 Hosting Platforms
+          <ServerIcon className="w-6 h-6" /> Top 10 Hosting Platforms
         </h2>
         <div className="grid sm:grid-cols-2 gap-6">
           {[

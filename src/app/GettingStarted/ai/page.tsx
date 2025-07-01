@@ -14,9 +14,9 @@ export default function AIToolsPage() {
         </div>
         <p className="text-lg leading-relaxed max-w-3xl">
           AI is transforming how developers work — from autocompleting code to
-          debugging, generating full apps, and writing docs. Whether you're a
-          beginner or a senior dev, integrating AI tools into your workflow can
-          10x your productivity.
+          debugging, generating full apps, and writing docs. Whether you&apos;re
+          a beginner or a senior dev, integrating AI tools into your workflow
+          can 10x your productivity.
         </p>
       </section>
 
