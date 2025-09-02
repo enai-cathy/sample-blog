@@ -12,31 +12,31 @@ A **Next.js + TypeScript** powered **tech blog** with **MongoDB** for content ma
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 **Sample Blog** is a full-stack **tech blogging platform** designed to highlight modern development practices:  
-- 🗂️ **MongoDB database** for blog post storage  
-- 🤖 **Serena AI integration** powered by OpenAI for smart recommendations, summaries, or assisted writing  
-- 🎨 **Next.js (App Router)** frontend with TypeScript  
-- 🔤 Optimized fonts via `next/font` (Geist)  
-- 🌐 Deployable instantly on **Vercel**  
+-  **MongoDB database** for blog post storage  
+-  **Serena AI integration** powered by OpenAI for smart recommendations, summaries, or assisted writing  
+-  **Next.js (App Router)** frontend with TypeScript  
+-  Optimized fonts via `next/font` (Geist)  
+-  Deployable instantly on **Vercel**  
 
 This project doubles as a **portfolio piece** to showcase advanced web development, API integration, and AI-driven content systems.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📚 Blog system backed by **MongoDB**
-- 🤖 **AI-powered assistant (Serena AI)** to generate summaries or enhance posts
-- ⚡ **Next.js App Router** for performance and scalability
-- 🔍 SEO-ready with metadata and Open Graph setup
-- ♿ Accessible UI with semantic HTML
-- 🚀 One-click deploy to Vercel
+-  Blog system backed by **MongoDB**
+-  **AI-powered assistant (Serena AI)** to generate summaries or enhance posts
+-  **Next.js App Router** for performance and scalability
+-  SEO-ready with metadata and Open Graph setup
+-  Accessible UI with semantic HTML
+-  One-click deploy to Vercel
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - **Frontend:** Next.js 14+, TypeScript, React  
 - **Database:** MongoDB (Atlas or self-hosted)  
