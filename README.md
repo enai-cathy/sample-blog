@@ -48,6 +48,7 @@ This project doubles as a **portfolio piece** to showcase advanced web developme
 ---
 
 ## 📂 Project Structure
+```
 sample-blog/
 ├── app/ # App Router pages & layouts
 │ ├── layout.tsx # Global layout, fonts, SEO
@@ -63,12 +64,13 @@ sample-blog/
 ├── next.config.ts # Next.js configuration
 ├── package.json
 └── README.md
+```
 ---
 
 ## ⚡ Getting Started
 
 ### 1. Clone and Install
-```bash
+```
 git clone https://github.com/enai-cathy/sample-blog.git
 cd sample-blog
 npm install
@@ -87,6 +89,8 @@ npm run dev
 ### 4. Build for Production
 npm run build
 npm run start
+```
+---
 
 ## AI Integration (Serena AI)
 - Serena AI leverages the OpenAI API to provide:
@@ -95,6 +99,8 @@ npm run start
 - learning paths
 
 ### The integration lives in lib/openai.ts. You can extend it with custom prompts for your use case.
+
+---
 
 ## Roadmap
 
@@ -123,5 +129,11 @@ Enaikato Cathy Ige-Edaba
 
 💼 LinkedIn: https://www.linkedin.com/in/enaikato-ige-edaba/
 
-⭐ If you find this project useful, consider giving it a star on GitHub!
+---
+
+
+
+
+
+
 
