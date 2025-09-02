@@ -48,4 +48,80 @@ This project doubles as a **portfolio piece** to showcase advanced web developme
 ---
 
 ## 📂 Project Structure
+sample-blog/
+├── app/ # App Router pages & layouts
+│ ├── layout.tsx # Global layout, fonts, SEO
+│ └── page.tsx # Home page
+├── components/ # Reusable UI components
+├── lib/ # Database & AI utility functions
+│ ├── db.ts # MongoDB connection logic
+│ └── openai.ts # OpenAI (Serena AI) integration
+├── models/ # MongoDB schemas/models
+├── public/ # Static assets (images, icons)
+├── styles/ # Global or module styles
+├── .env.local # Local environment variables
+├── next.config.ts # Next.js configuration
+├── package.json
+└── README.md
+---
+
+## ⚡ Getting Started
+
+### 1. Clone and Install
+```bash
+git clone https://github.com/enai-cathy/sample-blog.git
+cd sample-blog
+npm install
+
+### 2. Configure Environment
+Create a .env.local file:
+
+MONGODB_URI="your-mongodb-uri"
+OPENAI_API_KEY="your-openai-key"
+NEXT_PUBLIC_SITE_URL="http://localhost:3000"
+
+### 3. Configure Environment
+npm run dev
+# open http://localhost:3000
+
+### 4. Build for Production
+npm run build
+npm run start
+
+## AI Integration (Serena AI)
+- Serena AI leverages the OpenAI API to provide:
+- insights on tech related questions
+- bug fixes
+- learning paths
+
+### The integration lives in lib/openai.ts. You can extend it with custom prompts for your use case.
+
+## Roadmap
+
+ - Add user authentication (NextAuth.js)
+ - Markdown/MDX support for blog posts
+ - Rich editor for AI-assisted writing
+ - Dark/light theme toggle
+ - Analytics dashboard
+
+
+## Contributing
+
+Contributions are welcome!
+
+- **Fork the repo**
+- **Create a feature branch**: git checkout -b feat/your-feature
+- **Commit**: git commit -m "feat: add your feature"
+- **Push**: git push origin feat/your-feature
+- **Open a Pull Request**
+
+
+ Author
+
+Enaikato Cathy Ige-Edaba
+
+
+💼 LinkedIn: https://www.linkedin.com/in/enaikato-ige-edaba/
+
+⭐ If you find this project useful, consider giving it a star on GitHub!
 
